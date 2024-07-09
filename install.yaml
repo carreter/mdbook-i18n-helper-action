@@ -1,0 +1,9 @@
+name: Install mdbook-i18n-helper
+descrption: Installs mdbook-i18n-helper and its dependencies.
+
+runs:
+  using: composite
+  steps:
+    - name: Install mdbook-i18n-helpers
+      run: cargo install mdbook-i18n-helpers --locked --version 0.3.4
+      shell: bash

@@ -1,0 +1,1 @@
+# GitHub Actions for `mdbook-i18n-helpers`
